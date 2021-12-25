@@ -7,7 +7,7 @@ import 'classguess.dart';
 void main() {
   for (;;) {
     var r = Random();
-    const maxRandom = 10;
+    const maxRandom = 100;
     var game = Game();
     var sum = 1;
     for (;;) {

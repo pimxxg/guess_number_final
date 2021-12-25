@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class Game {
-  static const maxRandom = 10;
+  static const maxRandom = 100;
   int? _answer;
   var count = 0;
 
