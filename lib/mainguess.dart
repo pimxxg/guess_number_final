@@ -9,7 +9,7 @@ void main() {
     var r = Random();
     const maxRandom = 100;
     var game = Game();
-    var sum = 1;
+    var sum = 0;
     for (;;) {
       stdout.write('Please guess number : ');
       var input = stdin.readLineSync();
