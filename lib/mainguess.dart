@@ -47,6 +47,8 @@ void main() {
         sum = -1;
         break;
       }
+      else if (ans != N || ans == n || ans == Y || ans == y )
+        continue ;
     }
     if (sum == 1) {
       continue;
